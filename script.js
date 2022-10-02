@@ -30,20 +30,16 @@ function generatePassword() {
   }
 
   var passwordLower = confirm(
-    "Should your password contain lowercase characters?",
-    true
+    "Should your password contain lowercase characters?"
   );
   var passwordUpper = confirm(
-    "Should your password contain uppercase characters?",
-    true
+    "Should your password contain uppercase characters?"
   );
   var passwordNumeric = confirm(
-    "Should your password contain numerical characters?",
-    true
+    "Should your password contain numerical characters?"
   );
   var passwordSpecial = confirm(
-    "Should your password contain special characters?",
-    true
+    "Should your password contain special characters?"
   );
 
   var finalPossibleChars = "";
@@ -65,7 +61,7 @@ function generatePassword() {
   }
 
   if (finalPossibleChars.length === 0) {
-    alert
+    alert("You must choose an uppercase, lowercase, numerical OR symbol to proceed.")
   }
 
   var finalPassword = "";
