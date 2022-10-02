@@ -10,6 +10,7 @@ function writePassword() {
 }
 
 function generatePassword() {
+  var finalPassword = ""
   var possibleLowerChars = "abcdefghijklmnopqrstuvwxyz";
   var possibleUpperChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   var possibleNumericChars = "0123456789";
@@ -21,12 +22,12 @@ function generatePassword() {
   );
   if (isNaN(passwordLength)) {
     alert("This is not a number.");
-    return;
+  return finalPassword;
   }
 
   if (passwordLength < 8 || passwordLength > 128) {
     alert("Your password must be between 8-128 characters.");
-    return;
+    return finalPassword;
   }
 
   var passwordLower = confirm(
@@ -59,15 +60,14 @@ function generatePassword() {
   if (passwordSpecial === true) {
     finalPossibleChars = finalPossibleChars.concat(possibleSpecialChars);
   }
-
+  
   if (finalPossibleChars.length === 0) {
     alert("You must choose an uppercase, lowercase, numerical OR symbol to proceed.")
-  }
 
-  var finalPassword = "";
-
-  for (i = 0; i < passwordLength; i++) {
-    finalPassword += finalPossibleChars[Math.floor(Math.random() * finalPossibleChars.length)];
+  } else {
+    for (i = 0; i < passwordLength; i++) {
+      finalPassword += finalPossibleChars[Math.floor(Math.random() * finalPossibleChars.length)];
+    }
   }
 
   return finalPassword;
