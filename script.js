@@ -15,8 +15,6 @@ function generatePassword() {
   var possibleUpperChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   var possibleNumericChars = "0123456789";
   var possibleSpecialChars = " !\"#$%&'()*+,-./:;<=>?@[]\\^_`{|}~";
-  
-  console.log(possibleSpecialChars)
 
   var passwordLength = prompt(
     "Please choose a length of between 8-128 characters",
