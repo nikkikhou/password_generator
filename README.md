@@ -10,3 +10,41 @@ After you chose how many characters you want in your password it will prompt you
 ## Demo
 This page can be viewed at: https://nikkikhou.github.io/password_generator/
 
+Before generating code:
+
+<img width="1440" alt="Screen Shot 2022-10-02 at 5 06 45 PM" src="https://user-images.githubusercontent.com/112020537/193571811-ba85a9ca-cc53-4f43-a402-022fc5606af7.png">
+
+
+
+How many characters would you like the password:
+
+<img width="1440" alt="Screen Shot 2022-10-02 at 5 07 13 PM" src="https://user-images.githubusercontent.com/112020537/193572016-a26d1121-9ebb-45db-8782-72bb9fe56669.png">
+
+
+
+If you would like lowercase characters:
+
+<img width="1440" alt="Screen Shot 2022-10-02 at 5 07 25 PM" src="https://user-images.githubusercontent.com/112020537/193572430-d9fa21b3-0b1f-4eba-a399-2ad58f011cc7.png">
+
+
+
+If you would like uppercase characters:
+
+<img width="1440" alt="Screen Shot 2022-10-02 at 5 07 28 PM" src="https://user-images.githubusercontent.com/112020537/193572652-be22dd96-b995-4615-87c3-c6e009813475.png">
+
+
+
+If you would like numerical characters:
+
+<img width="1440" alt="Screen Shot 2022-10-02 at 5 07 31 PM" src="https://user-images.githubusercontent.com/112020537/193572745-30c4c958-4608-4784-8c30-21cdd4a4edaf.png">
+
+
+If you would like special characters:
+
+<img width="1440" alt="Screen Shot 2022-10-02 at 5 07 33 PM" src="https://user-images.githubusercontent.com/112020537/193572963-1937e02f-37f3-41dc-bdb6-6274efdd21cf.png">
+
+
+
+Final password result:
+
+<img width="1440" alt="Screen Shot 2022-10-02 at 5 07 36 PM" src="https://user-images.githubusercontent.com/112020537/193573129-aaf6f8a0-87dc-480d-a2fa-e7717b2fee33.png">
